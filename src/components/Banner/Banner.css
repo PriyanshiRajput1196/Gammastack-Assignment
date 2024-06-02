@@ -1,0 +1,57 @@
+.banner-wrap{
+    /* background:linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)), 
+        linear-gradient(to top, rgba(37, 37, 15, 0), rgba(37, 37, 15, 1)), 
+        url('../../assets/bg-main.jpeg'); */
+    background:linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.3) 55%), 
+        linear-gradient(180deg, rgba(37, 37, 15, 0) 0%, #25250F 100%), 
+        url('../../assets/bg-main.jpeg');
+    height: 1080px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+
+
+.banner-inner{
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    grid-template-columns: auto auto;
+}
+
+.inner-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: min-content;
+}
+
+.inner-left h2{
+    color: var(--light-yellow);
+    font-weight: 900;
+    font-size: 6rem;
+    text-transform: capitalize;
+    line-height: 5rem;
+
+}
+
+.inner-left p{
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.inner-left button{
+    height: 77px;
+    width: 200px;
+    background: linear-gradient(0deg, #FFF0A5 0%, #F3C741 100%);
+    mask-image: url('../../assets/play-bg.png');
+    mask-repeat: no-repeat;
+    mask-size: 100% 100%;
+    font-weight: 600;
+}

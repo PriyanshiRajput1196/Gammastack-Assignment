@@ -1,0 +1,56 @@
+header{
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+        position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.logo{
+    color: var(--light-yellow);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.logo span{
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+
+ .auth-btn{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+nav a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.auth-btn button{
+    border-radius: 36px;
+    padding: 16px 48px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-weight: 600;
+
+}
+.auth-btn button.register{
+background: linear-gradient(var(--light-yellow), var(--dark-yellow));
+    border: 1px solid var(--dark-yellow);
+    color: #000000;
+    
+
+
+}

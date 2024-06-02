@@ -1,0 +1,22 @@
+.bonus-img{
+    width: 490px;
+    height: 320px;
+    top: 131px;
+    left: 555px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.bonus-wrap{
+   max-width: 1600px;
+    height: 496px;
+    margin: auto;
+}
+
+.img-two{
+    width: 50%;
+    height: 50%;
+    left: 6rem;
+    top: 1rem;
+    object-fit: contain;
+}
